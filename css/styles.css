@@ -1,0 +1,37 @@
+/****************tag selectors*****/
+body {
+  background-color: #4E6C50;
+/*font-family: "courier new",  monospace;*/
+}
+
+hr {
+  background-color: inherit;
+   border-style: none;
+   border-top-style: dotted;
+   border-color: #395144;
+   border-width: 5px;
+   width: 5%;
+}
+h1{
+  color: #AA8B56;
+}
+h2{
+  color: #AA8B56;
+}
+h3{
+  color: #AA8B56;
+
+}
+/********class selectors,  these selectors are used when there is an element you want to style differently f
+rom the others and you can also select ultiple of them using this same style*** THIS IS MY PERSONAL PREFFERED CHOICE**/
+/*in short this can have duplicates while the id selector cannot*/
+.what{
+  color: #F0EBCE;
+}
+.cont:hover{
+  color: gold;
+}
+/*******id selectors, these selectors are used to style single elements and cannot have duplicates*****/
+/*#student{
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}*/
